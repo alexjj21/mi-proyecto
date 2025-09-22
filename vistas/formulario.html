@@ -15,19 +15,58 @@
     </header>
     <a>Manejo de formulario</a>
     <!--Creamos un formulario-->
-    <form action="#" method="post">
+    <form action="#" method="get">
         <div>
             <label for="usuario">Ingrese su usuario</label>
             <!--Crear un texto estatico-->
             <input type="text" name="usuario" id="usuario" placeholder="Ingrese su usuario" maxlength="20" minlength="3">
         </div>
         <div>
-            <label for="">Ingrese la contraseña</label>
+            <label for="password">Ingrese la contraseña</label>
             <input type="password" name="password" id="password">
+        </div>
+    <!--Ingresamos la edad del estudiante-->
+        <div>
+            <label for="edad">Ingrese la edad del estudiante</label>
+            <input type="number" name="edad" id="edad" placeholder="Ingrese su edad">
+        </div>
+        <!--Ingresamos fecha de nacimiento-->
+        <div>
+            <label for="fecha_nacimiento">Ingrese la fecha de nacimiento</label>
+            <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+        </div>
+        <!--select-->
+        <div>
+        <label for="color">Seleccione su color favorito</label>
+        <select name="color" id="color">
+            <option value="1">Amarillo</option>
+            <option value="azul">Verde</option>
+            <option value="verde">Azul</option>
+            <option value="amarillo">Rojo</option>
+        </select>
+        </div>
+        <!--Ingreso area de texto-->
+        <div>
+            <label for="comentario">Ingrese un mensaje</label>
+            <textarea name="comentario" id="comentario" rows="15" cols="10"></textarea>
+        </div>
+        <!--Radio buttons-->
+        <div>
+            <label for="genero">Seleccione su genero</label>
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="masculino" value="masculino">
+            <label for="femenino">Femenino</label>
+            <input type="radio" name="genero" id="femenino" value="femenino">
+            <label for="otro">Otro</label>
+            <input type="radio" name="genero" id="otro" value="otro">
         </div>
         <!--Voy a crear un boton-->
         <div>
             <input type="submit" value="Enviar fomrulario">
+        </div>
+        <!--Voy a crear un boton-->
+        <div>
+            <button type="submit">Carcelar informacion</button>
         </div>
     </form>
     <!--Insertar imagen-->
