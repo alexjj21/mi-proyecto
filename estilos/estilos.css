@@ -2,12 +2,14 @@
 * {
     margin: auto;
     color: rgb(17, 22, 20);
-    /*background-image: url(../img/casa-kame-de-dragon-ball_3840x2160_xtrafondos.com.jpg);
-    background-repeat: no-repeat;*/
+    /* background-image: url(../img/casa-kame-de-dragon-ball_3840x2160_xtrafondos.com.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
 }
 
 /*estilos para el contenedor titulo*/
 .titulo-contenedor {
+background: rgb(48, 189, 207);
  border: 10px solid black;
 /* border-radius: 15px;*/
  width: 700px;
@@ -15,4 +17,54 @@
  padding: 100px 50px 20px 50px;
  margin: 100px 20px 50px 30px;
  box-shadow:5px 5px 5px rgb(86, 86, 117);
+}
+
+.contenedor1 {
+    width: 200px;
+    border: 5px solid rgb(0, 0, 0);
+    position: relative;
+    top: -100px;
+    left: 200px;
+}
+.contenedor{
+    width: 90%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.tabla{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    border: 5px solid rgb(69, 180, 78);
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: rgb(129, 46, 31);
+    font-weight: bold;
+}
+
+tr:nth-child(even){
+    background-color: rgb(245, 177, 177);
+}
+
+/*pseudo hover*/
+tr:hover{
+    background-color: rgb(93, 125, 173);
+}
+
+a{
+    color: rgb(189, 101, 38);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(194, 75, 75);
+}
+
+a:visited{
+    color: rgb(138, 235, 138);
 }

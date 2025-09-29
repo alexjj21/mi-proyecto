@@ -1,0 +1,37 @@
+form{
+    max-width: 400px;
+    /*centramos el formulario*/
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(146, 205, 219);
+    border: 1px solid #d38181;
+    border-radius: 10px;
+}
+
+form label{
+    /*background: blue;*/
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /*Para que el padding no afecte al ancho total*/
+}
+
+form input[type="submit"]{
+    background-color: #1f3d20;
+    color: rgb(255, 253, 253);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+   cursor: pointer;
+}
